@@ -1,0 +1,19 @@
+{
+    "request": {
+        "urlPathPattern": "/products/classic-box",
+        "method": "POST",
+        "headers": {
+            "Content-Type": {
+                "equalTo": "application/json"
+            }
+        }
+    },
+    "response": {
+        "status": 200,
+        "fixedDelayMilliseconds": 200,
+        "bodyFileName": "classic-box.json",
+        "headers": {
+            "Content-Type": "application/json"
+        }
+    }
+}

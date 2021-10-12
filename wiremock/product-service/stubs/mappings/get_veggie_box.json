@@ -1,0 +1,15 @@
+{
+    "request": {
+        "urlPathPattern": "/products/veggie-box",
+        "method": "GET",
+        "headers": {
+            "Content-Type": {
+                "equalTo": "application/json"
+            }
+        }
+    },
+    "response": {
+        "status": 500,
+        "fixedDelayMilliseconds": 200
+    }
+}
